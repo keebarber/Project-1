@@ -1,0 +1,68 @@
+@font-face {
+	font-family: "cicero sans negrita";
+	src: url("Fonts/cicero sans negrita.ttf");
+}
+
+body {
+	background-color: #F9FAFE;
+	font-family: "cicero sans negrita";
+	color: grey;
+}
+
+.nav {
+	position: fixed;
+	width: 99%;
+	height: 40px;
+	padding: 0;
+	z-index: 1;
+}
+
+.nav ul a {
+	display: inline-block;
+	text-decoration: none;
+	float: right;
+	list-style-type: none;
+	padding: 5px 25px;
+	color: grey;
+	font-size: 1.25em;
+}
+
+#active {
+	color: white;
+	background-color: black;
+	border-radius: 50px;
+	text-decoration: none;
+	font-size: 1.25em;
+	padding: 5px 20px;
+}
+
+#company {
+	float: left;
+}
+
+.text {
+	float: left;
+	margin-top: 15%;
+	max-width: 40%;
+	padding-left: 10%;
+	padding-right: 2%;
+}
+.text p {
+	padding-left: 15px;
+	border-left: solid grey 3px;
+}
+
+img {
+	float: right;
+	margin-top: 20%;
+	height: 30%;
+	width: 30%;
+	padding-right: 10%;
+}
+
+.scroll {
+	position: absolute;
+	bottom: 15px;
+	margin: 0 auto;
+}
+
